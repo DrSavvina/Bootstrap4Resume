@@ -1,0 +1,253 @@
+body {
+  box-sizing: border-box;
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 1.2rem;
+  color: #242424;
+  width: 100%;
+  background-color: white;
+  text-align: center;
+  font-size: 1.4rem;
+}
+
+.navbar {
+  background-color: #242424;
+}
+
+h2,
+h5,
+h6,
+#sideNav,
+.family-name,
+.fa-user-tag,
+.list-inline-item i:hover,
+.linkedin-link a {
+  color: #1874cd;
+}
+
+ul.tasklist {
+  list-style: none;
+}
+
+h2,
+h4,
+h5,
+h6,
+#sideNav {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+}
+
+h1,
+.mobile-name {
+  font-family: "Just Another Hand", cursive;
+  font-size: 7.5rem;
+  letter-spacing: 0.1rem;
+}
+
+h1,
+.mobile-name {
+  color: #696969;
+}
+
+.subheading {
+  font-weight: 700;
+  font-size: 1.6rem;
+}
+
+.list-social-icons a,
+a:hover,
+a:focus {
+  color: #c4c4c4;
+}
+
+.list-social-icons {
+  font-size: 1.5rem;
+}
+
+.list-icons {
+  font-size: 3rem;
+}
+
+.list-social-icons a:hover,
+#sideNav .navbar-nav .nav-item a:hover,
+.nav-link a:hover,
+a {
+  color: #add8e6;
+  transition: all 0.2s ease-in-out;
+  /* cursor: pointer; */
+}
+
+#sideNav .navbar-nav .nav-item .nav-link {
+  font-weight: 500;
+  text-transform: uppercase;
+  font-size: 1rem;
+  color: #c4c4c4;
+}
+
+.nav-item {
+  border-bottom: 0.1rem groove #696969;
+}
+
+.navbar-nav:first-child {
+  border-top: 0.1rem groove #696969;
+}
+
+#mail-address a {
+  color: #242424;
+}
+
+.fa-ul {
+  margin-left: 0rem;
+}
+
+.form-group {
+  padding-left: 0;
+}
+
+.progress-bar,
+.btn {
+  background-image: linear-gradient(
+    to right,
+    #bfefff,
+    #8dd2f3,
+    #5fb4e8,
+    #3594dc,
+    #1874cd
+  );
+}
+
+.btn {
+  font-weight: 700;
+  letter-spacing: 0.1rem;
+  color: white;
+  width: 50%;
+  border: none;
+}
+
+.cert-icons {
+  color: #add8e6;
+}
+
+.card {
+  border: none;
+}
+
+button:focus,
+button:active {
+  outline: solid #add8e6 2px;
+}
+
+
+@media (min-width: 320px) and (max-width: 992px) {
+  h1,
+  h4 {
+    font-size: 5rem;
+    display: none;
+  }
+
+  .mobile-img {
+    height: 150px;
+    width: 150px;
+    border: solid whitesmoke 5px;
+    border-radius: 100%;
+  }
+
+  .mobile-name {
+    font-size: 3rem;
+  }
+
+  .mobile-profession {
+    font-size: 1.5rem;
+    font-weight: 700;
+  }
+
+  section.resume-section {
+    padding-top: 7rem !important;
+    min-height: 100vh;
+  }
+
+  .linkedin-link {
+    text-align: center !important;
+  }
+}
+
+.contact-form {
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mobile-name {
+  font-size: 3rem;
+}
+
+#skill-bars {
+  width: 75%;
+  margin: 0 auto;
+}
+
+.form-group {
+  width: 50%;
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+  #skill-bars {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .form-group {
+    width: 100%;
+  }
+}
+
+@media (min-width: 992px) {
+  body {
+    padding-top: 0;
+    padding-left: 18rem;
+  }
+  section.resume-section {
+    padding-top: 3rem !important;
+    padding-bottom: 10rem !important;
+  }
+
+  section.resume-section .resume-item .resume-date {
+    min-width: none;
+  }
+  #sideNav {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 18rem;
+    height: 100vh;
+  }
+  #sideNav .navbar-brand {
+    display: flex;
+    margin: auto auto 0;
+    padding: 0.5rem;
+  }
+  #sideNav .navbar-brand .img-profile {
+    max-width: 12rem;
+    max-height: 12rem;
+    border: 0.3rem solid #1873cde0;
+    border-radius: 100%;
+  }
+  #sideNav .navbar-collapse {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 0;
+    width: 100%;
+    margin-bottom: auto;
+  }
+  #sideNav .navbar-collapse .navbar-nav {
+    width: 100%;
+  }
+  .navbar-nav:first-child {
+    border-top: none;
+  }
+
+  .mobile-name,
+  .mobile-profession {
+    display: none;
+  }
+}
