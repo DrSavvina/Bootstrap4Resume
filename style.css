@@ -1,7 +1,6 @@
 body {
   box-sizing: border-box;
   font-family: "Barlow Condensed", sans-serif;
-  font-size: 1.2rem;
   color: #242424;
   width: 100%;
   background-color: white;
@@ -24,10 +23,6 @@ h6,
   color: #1874cd;
 }
 
-ul.tasklist {
-  list-style: none;
-}
-
 h2,
 h4,
 h5,
@@ -45,7 +40,8 @@ h1,
 }
 
 h1,
-.mobile-name {
+.mobile-name,
+.edu-icons {
   color: #696969;
 }
 
@@ -124,10 +120,6 @@ a {
   border: none;
 }
 
-.cert-icons {
-  color: #add8e6;
-}
-
 .card {
   border: none;
 }
@@ -136,7 +128,6 @@ button:focus,
 button:active {
   outline: solid #add8e6 2px;
 }
-
 
 @media (min-width: 320px) and (max-width: 992px) {
   h1,
@@ -211,9 +202,9 @@ button:active {
     padding-bottom: 10rem !important;
   }
 
-  section.resume-section .resume-item .resume-date {
+  /* section.resume-section .resume-item .resume-date {
     min-width: none;
-  }
+  } */
   #sideNav {
     text-align: center;
     display: flex;
