@@ -1,6 +1,6 @@
-# Personal Portfolio
+# Bootstrap4Resume
 
-A personal, single-page static website with a fixed sidebar, smooth scrolling navigation, and content sections. Great for an elegant portfolio. Mobile-friendly. 
+A single-page static website with a fixed sidebar, smooth scrolling navigation, and content sections. Great for an elegant resume or portfolio. Mobile-friendly. 
 
 ## Introduction
 
