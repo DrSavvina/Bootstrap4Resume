@@ -8,7 +8,7 @@ This is a simple yet elegant website created with the help of a free Bootstrap t
 
 ## Live Preview
 
-<p><a href="https://demo-resume.bugs-bunny.net/" target="_blank"> <img src="https://github.com/DrSavvina/Bootstrap4Resume/blob/master/preview1.png"></a></p>
+<p><a href="https://bootstrap4resume.deployonfriday.net/" target="_blank"> <img src="https://github.com/DrSavvina/Bootstrap4Resume/blob/master/preview1.png"></a></p>
 
 ## Technologies Used
 
